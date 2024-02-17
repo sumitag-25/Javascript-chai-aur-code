@@ -10,11 +10,20 @@
 
 // console.log(Math.random());
 
-// console.log((Math.random()*10) + 1);
+// console.log(((Math.random()*10) + 1));
 
 // console.log(Math.floor(Math.random()*10) + 1);
 
 let minNumber = 300;
 let maxNumber = 600;
-console.log(Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber)
+// console.log(Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber)
 // console.log(`the sum of ${minNumber} and ${maxNumber} is ${minNumber + maxNumber}`)
+// console.log(Math.floor(Math.random()));
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min);
+// console.log(Math.floor(Math.random())*10);
+console.log(Math.floor(((Math.random()*10) + 1)) + min) ;
+

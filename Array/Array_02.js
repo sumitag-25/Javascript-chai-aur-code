@@ -8,7 +8,7 @@ const all_heros = marvals_heros.concat(dc_heros)
 
 
 // console.log(Array.isArray('Sumit')) //check whether it is array or not
-// console.log(Array.from("Sumit")) //onvert a string into an array
+// console.log(Array.from("Sumit")) //Convert a string into an array
 
 
 const score1 = new Number(200) 

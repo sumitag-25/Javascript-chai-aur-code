@@ -27,7 +27,7 @@ const obj2 = {3: "c", 4: "d"}
 
 const obj3 = Object.assign({}, obj1, obj2) //assign method to combine object
 
-console.log(obj3)
+// console.log(obj3)
 
 const obj4 = {...obj1, ...obj2} //spread method just like in array
 
@@ -52,7 +52,7 @@ const user = [
     }
 ] // when multiple data comes from database in the form of array
 
-// console.log(user[1].id)
+console.log(user[1].id)
 
 
 console.log(tinderUser)
